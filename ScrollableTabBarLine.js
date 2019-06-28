@@ -15,7 +15,7 @@ const Button = require('./Button');
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
 
-const ScrollableTabBar = createReactClass({
+const ScrollableTabBarLine = createReactClass({
   propTypes: {
     goToPage: PropTypes.func,
     activeTab: PropTypes.number,
@@ -216,7 +216,7 @@ const ScrollableTabBar = createReactClass({
   },
 });
 
-module.exports = ScrollableTabBar;
+module.exports = ScrollableTabBarLine;
 
 const styles = StyleSheet.create({
   tab: {
